@@ -10,7 +10,11 @@ let arr = [{a:1},{b:2},{c:3},{d:4},{e:5}];
 let tokenF = {f:6};
 let tokenG = {g:7};
 let result = [];
- 
+result.push(tokenG)
+for ( i = 0; i < arr.length; i ++) {
+   result.push(arr[i])
+}
+result.push(tokenF)
  
 //export result
 module.exports = result; 

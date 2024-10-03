@@ -21,7 +21,7 @@ let bar = {
     skills:["javascript", "html", "css", "python", "flask", "react", "redux"],
     alias:"Super Alias"
 }
-let result;
+let result = Object.assign({}, foo, bar);
 
 
 //export result
